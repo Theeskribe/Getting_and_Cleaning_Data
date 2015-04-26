@@ -21,7 +21,12 @@
 5. Extract all files from the downloaded data source zip file from step 1 to the "data" subdir of the working directory.
 6. Run the following command to run the analysis script: `source("run_analysis.R")`
 
-Please see detailed comments in run_analysis.R file for data analysis steps peformed
-Please see README.md file for addiitonal Project details
+#### Data ANlysis Outputs
+* The full tidy data set will be written to the `./data/tidy1.txt` file.
+* The summarized data averages tidy data set will be written to the `./data/tidy2.txt` file.
+* The summarized data averages tidy data frame will be output to the console.
+
+#### Please see detailed comments in run_analysis.R file for data analysis steps peformed
+#### Please see README.md file for addiitonal Project details
 
 
