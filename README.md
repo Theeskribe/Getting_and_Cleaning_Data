@@ -18,11 +18,11 @@ The project data files:
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## Repository Files 
-*README.md:  This file - Describes what this repsitories purpose and what files it contians.
-*CODEBOOK.md: Describes the variables, the data, and any transformations or work that was performed to clean up the data.
-*run_analysis.R: The R scipt contains the code required to perfrom the steps as detailesd in the Course Project Guidelines. The script is dependent on the project data files being downloaded from the supplied link and extracted to the "./data" subdirectory or the present working directory.
-*tidy1.txt: The write.table export of tidy data set created by run_analysis.R script's Steps 1 through 4
-*tidy2.txt: The write.table export of summarised tidy data set created by run_analysis.R script's Step 5
+* README.md:  This file - Describes what this repsitories purpose and what files it contians.
+* CODEBOOK.md: Describes the variables, the data, and any transformations or work that was performed to clean up the data.
+* run_analysis.R: The R scipt contains the code required to perfrom the steps as detailesd in the Course Project Guidelines. The script is dependent on the project data files being downloaded from the supplied link and extracted to the "./data" subdirectory or the present working directory.
+* tidy1.txt: The write.table export of tidy data set created by run_analysis.R script's Steps 1 through 4
+* tidy2.txt: The write.table export of summarised tidy data set created by run_analysis.R script's Step 5
 
 ## How to replicate the analysis
 
@@ -35,6 +35,6 @@ The project data files:
 6. Run the following command to run the analysis script: `source("run_analysis.R")`
 
 ### Outputs from the run_analysis.R scrtip
-*The full tidy data set will be written to the `./data/tidy1.txt` file.
-*The summarized data averages tidy data set will be written to the `./data/tidy2.txt` file.
-*The summarized data averages tidy data frame will be output to the console.
+* The full tidy data set will be written to the `./data/tidy1.txt` file.
+* The summarized data averages tidy data set will be written to the `./data/tidy2.txt` file.
+* The summarized data averages tidy data frame will be output to the console.
