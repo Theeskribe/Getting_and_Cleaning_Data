@@ -1,10 +1,11 @@
-# Getting and Cleaning Data - Course Project 
+# Getting and Cleaning Data
+# Course Project Code Book
 
 ## Required packages
 * R v3.1.2 (base)
 * dplyr v0.4.1(required for and %>% operator and summarise_each function)
 
-## Data Analaysis Process
+## Data Analysis Process
 
 #### You should create one R script called run_analysis.R that does the following:
 1. Merges the training and the test sets to create one data set.
@@ -21,12 +22,12 @@
 5. Extract all files from the downloaded data source zip file from step 1 to the "data" subdir of the working directory.
 6. Run the following command to run the analysis script: `source("run_analysis.R")`
 
-#### Data ANlysis Outputs
+#### Data Analysis Outputs 
 * The full tidy data set will be written to the `./data/tidy1.txt` file.
 * The summarized data averages tidy data set will be written to the `./data/tidy2.txt` file.
 * The summarized data averages tidy data frame will be output to the console.
 
 #### Please see detailed comments in run_analysis.R file for data analysis steps peformed
-#### Please see README.md file for addiitonal Project details
+#### Please see README.md file for addiitonal Project requirements and details
 
 
